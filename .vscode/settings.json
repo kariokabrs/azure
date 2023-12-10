@@ -4,5 +4,6 @@
     },
     "omnisharp.dotNetCliPaths": [
         "C:\\Users\\famil\\.azurelogicapps\\dependencies\\DotNetSDK"
-    ]
+    ],
+    "azureAutomation.directory.basePath": "c:\\Users\\famil"
 }
