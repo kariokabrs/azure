@@ -1,9 +1,13 @@
 {
-    "terminal.integrated.env.windows": {
-        "PATH": "C:\\Users\\famil\\.azurelogicapps\\dependencies\\DotNetSDK;${env:PATH}"
-    },
-    "omnisharp.dotNetCliPaths": [
-        "C:\\Users\\famil\\.azurelogicapps\\dependencies\\DotNetSDK"
-    ],
-    "azureAutomation.directory.basePath": "c:\\Users\\famil"
+  "azureFunctions.deploySubpath": "bin/Release/net6.0/publish",
+  "azureFunctions.projectLanguage": "C#",
+  "azureFunctions.projectRuntime": "~4",
+  "debug.internalConsoleOptions": "neverOpen",
+  "azureFunctions.preDeployTask": "publish (functions)",
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Users\\famil\\.azurelogicapps\\dependencies\\DotNetSDK;${env:PATH}"
+  },
+  "omnisharp.dotNetCliPaths": [
+    "C:\\Users\\famil\\.azurelogicapps\\dependencies\\DotNetSDK"
+  ]
 }
